@@ -11,3 +11,9 @@ zone "super.franky.e01.com" {
     file "/etc/bind/kaizoku/super.franky.e01.com";
     allow-transfer { 192.200.3.69; }; 
 };
+
+zone "jualbelikapal.e01.com" {
+    type master;
+    file "/etc/bind/kaizoku/jualbelikapal.e01.com";
+    allow-transfer { 192.200.2.3; }; 
+};
